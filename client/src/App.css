@@ -1,0 +1,96 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+#root{
+
+  width: 100%;
+  
+  /* overflow-y: hidden; */
+  font-family:  monospace;
+  font-size: 10px ;
+}
+input[type=text],input[type=email],input[type=password]{
+  
+  border-radius: 6px;
+  border: none;
+  height: 28px;
+  font-size: 28px;
+
+}
+
+
+.card-css{
+  background-color:rgba(34, 228, 28, 0.3) !important;
+  width: 80%;
+  text-align: center;
+  left: 10%;
+  margin: none;
+  padding: none;
+}
+h6,span{
+
+  color: white;
+  margin: none;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+
+}
+.container h5,.container p{
+  color: rgba(12, 11, 11, 0.85);
+  /* text-align: center; */
+ 
+}
+.fa {
+  margin-left: 5px ;
+}
+
+.alkhat{
+display: inline-block;
+
+}
+
+h6:hover,span:hover{
+  color: rgb(212, 212, 107);
+}
+
+.container {
+padding-top : 50px;
+height: auto;
+  background-color: rgba(34, 228, 28, 0.2);
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********CSS TRANSITION************/
+
+.item-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.item-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: opacity 200ms, transform 300ms;
+}

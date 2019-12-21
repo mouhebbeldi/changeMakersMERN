@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://changeMakers:changeMakers@changemakerscluster-o46lg.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSECRET":"secret"
+}

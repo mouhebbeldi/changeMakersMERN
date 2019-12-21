@@ -1,0 +1,15 @@
+nav , li , a,.dropdown-menu,.dropdown-item {
+    color: rgba(255,255,255,1) !important   ;
+
+}
+h3{
+    font-family: 'Pacifico', cursive;
+}
+
+.capital{
+    color: black;
+ 
+   
+    font-size: 20px;
+    font-weight: bolder;
+}
